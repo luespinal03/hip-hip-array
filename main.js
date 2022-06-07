@@ -25,7 +25,7 @@ const students = [
   'Andy'
 ];
 // Challenge 1 Code
-for (let i = 0; i < 13; i++) {
+for (let i = 0; i < students.length; i++) {
   console.log(students[i])
 }
 
@@ -40,7 +40,7 @@ const grades = [100, 80, 110, 75, 83, 64];
 
 console.log(grades.reverse())
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < grades.length; i++) {
   console.log(grades[i])
 }
 
@@ -90,7 +90,7 @@ const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', '
 symmetricalCapitals.splice(0, 2)
 symmetricalCapitals.pop()
 
-for (let i = 0; i < 8; i++) {
+for (let i = 0; i < symmetricalCapitals.length; i++) { // I M O T U V W X
   console.log(symmetricalCapitals[i])
 }
 
@@ -120,7 +120,7 @@ const newArray = [1, 2, 3, 4, 5];
 
 let myNewArray = [2, 4, 6, 8, 10]
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < myNewArray.length; i++) {
   console.log(myNewArray[i])
 }
 
@@ -174,8 +174,6 @@ console.log("Challenge 10");
 // Challenge 10 Code
 
 
-
-
 let superNewArray = []
 
 for (let i = 3; i < 11; i++) {
@@ -184,8 +182,6 @@ superNewArray.push(students[i])
 }
 
 console.log(superNewArray)
-
-
 
 
 
