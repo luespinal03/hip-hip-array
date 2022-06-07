@@ -134,7 +134,7 @@ const emptyArray = [];
 // Challenge 8 Code
 
 emptyArray.push(5)
-emptyArray.unshift(1,2,3,4)
+emptyArray.unshift(1, 2, 3, 4)
 // console.log(emptyArray)
 for (let i = 0; i < emptyArray.length; i++) {
   console.log(emptyArray[i])
@@ -178,7 +178,7 @@ let superNewArray = []
 
 for (let i = 3; i < 11; i++) {
   console.log(students[i])
-superNewArray.push(students[i])
+  superNewArray.push(students[i])
 }
 
 console.log(superNewArray)
@@ -210,6 +210,8 @@ console.log("Challenge 11");
 */
 newStudents = students.slice(3, 11) // Ilyas to Pat
 console.log(newStudents)
+
+console.log("\n")
 
 for (let i = 0; i < students.length; i++) {
   console.log(students[i])
@@ -270,7 +272,7 @@ console.log("Challenge 15");
 
 
 
-let firstArray = ["Bear", "Beets","Dwight", "Schrute", "Farms"]
+let firstArray = ["Bear", "Beets", "Dwight", "Schrute", "Farms"]
 let secondArray = ["Battlestar", "Galactica"]
 
 
