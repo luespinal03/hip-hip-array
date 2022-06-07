@@ -270,14 +270,14 @@ console.log("Challenge 15");
 
 
 
-
-
 let firstArray = ["Bear", "Beets", "Dwight", "Schrute", "Farms"]
 let secondArray = ["Battlestar", "Galactica"]
 
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < firstArray.length; i++) {
   console.log(firstArray[i])
 }
+
+console.log("")
 
 console.log(firstArray.concat(secondArray))
